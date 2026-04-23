@@ -80,3 +80,13 @@ GOING FORWARD:
 it the git way. 
 
 This troubleshooting has made me better with source control in general. I noticed it.
+
+
+
+------->   EXPERIMENT ON SETTING PRODUCTION BRANCH TO A SPECIFIC COMMIT AFTER ITS MOST RECENT COMMIT        <----------
+
+-- building (created from master) is here 7eaf8e68dd130da955e368d99144e4a0a92380c8 (Merge branch 'master' of https://github.com/Femi-O/Git-Practice) LATEST
+-- prod branch must pass "femi did more work creating femWork" as that's where it is.
+-- reset building from LATEST to e64f2dc80045d4a23f808873bcfaabe2544f187b ( Merge pull request #1 from Femi-O/branchA)
+-- prod pulls building to pass "femi did more work creating femWork" but not reach (Merge branch 'master' of https://github.com/Femi-O/Git-Practice)
+SUCCESS. Prod pulled the reverted building and only received commits up to where building had been reverted to. 
